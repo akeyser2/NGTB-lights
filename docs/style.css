@@ -1,0 +1,25 @@
+* {
+    background-color: #272f5b;
+}
+.header {
+    text-align: center;
+}
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 160px;
+    font-family: Handjet;
+    font-weight: 700;
+    background: -webkit-linear-gradient(crimson, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-title {
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: Handjet;
+    font-weight: 500;
+    background: -webkit-linear-gradient(crimson, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
