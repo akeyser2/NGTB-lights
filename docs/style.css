@@ -23,26 +23,67 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.slide-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 40% auto;
+}
+.slide-changer {
+    font-size: 160px;
+    font-family: Handjet;
+    border: none;
+    color: white;
+}
+
 .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border: 2px solid #000;
     background-color: aliceblue;
     border-radius: 20px; 
     padding: 20px;
-    margin: auto auto;
-    width: 50%;
+    margin: 10px 10px;
+    width: auto;
     min-height: 500px;
     float: center;
     overflow-y: auto;
-
 }
 
-.button-container > button {
-    width: auto;
+.button-row {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: fit-content;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+
+.button-group > button {
+    width: 150px;
     min-width: 15%;
-    height: 50px;
+    height: 75px;
     float: left;
     border-radius: 10px;
-    background: rgb(42, 96, 233);   
     margin: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.button-group > h5 {
+    background-color: aliceblue;
+    color: #000;
+    font-size: 40px;
+    font-family: Handjet;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
